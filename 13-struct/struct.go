@@ -30,4 +30,12 @@ func main() {
 	statusChange(&myorder)
 	fmt.Println(myorder)
 
+	language := struct {
+		name   string
+		isGood bool
+	}{
+		"golang", true}
+
+	fmt.Println("Languages = : ", language)
+
 }
