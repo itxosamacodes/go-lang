@@ -26,9 +26,10 @@ type nayaPay struct {
 func (n nayaPay) pay(amount float32) {
 	fmt.Println("amount pay with nayaPay : ", amount)
 }
+
 func main() {
 	newPay := payment{
 		gatWay: nayaPay{},
 	}
-	newPay.pay(324)
+	newPay.pay(23423)
 }
